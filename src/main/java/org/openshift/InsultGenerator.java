@@ -35,7 +35,7 @@ public class InsultGenerator {
 				connection.close();
 			}
 		} catch (Exception e) {
-			e.printStackTrace(System.out);
+			e.printStackTrace();
 			return "Database connection problem!";
 		}
 		return theInsult;
