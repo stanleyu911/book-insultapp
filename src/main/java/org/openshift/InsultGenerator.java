@@ -39,4 +39,4 @@ public class InsultGenerator {
 		}
 		return theInsult;
 	}
-}a
+}
