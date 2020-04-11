@@ -14,11 +14,11 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
         <dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>9.4-1200-jdbc41</version>
-            <scope>provided</scope>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901-1.jdbc4</version>
         </dependency>
 
         <dependency>
@@ -39,6 +39,11 @@
             <configuration>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
             </configuration>
+        </plugin>
+        <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.12.v20180830</version>
         </plugin>
     </plugins>
 </build>
