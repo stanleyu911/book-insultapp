@@ -40,11 +40,11 @@
                 <failOnMissingWebXml>false</failOnMissingWebXml>
             </configuration>
         </plugin>
-        <plugin>
+        <!--<plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.4.12.v20180830</version>
-        </plugin>
+        </plugin> -->
     </plugins>
 </build>
 
